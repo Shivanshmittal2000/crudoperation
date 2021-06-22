@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CRUD-Operaion</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.min.css' %}" />
+  </head>
+  <body>
+    {% block body %} {% endblock %}
+
+    <script src="{% static 'enroll/js/jquery.js' %}"></script>
+    <script src="{% static 'enroll/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'enroll/js/popper.js' %}"></script>
+    <script>
+      // the hello world program
+      document.write("Hello, World!");
+    </script>
+  </body>
+</html>
